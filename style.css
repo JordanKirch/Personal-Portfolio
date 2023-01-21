@@ -1,6 +1,71 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700,500|Arimo:400|Anton:400");
+@import "styleguide.css";
 
 .welcome{
     height: 720px;
     min-width: 1440px;
+}
+
+.about-me {
+    align-items: center;
+    background-color: var(--eerie-black);
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    padding: 64px 0px;
+    width: 1440px;
+}
+
+.logo {
+    height: 100.79px;
+    min-width: 100.71px;
+}
+
+.Opening-Statement {
+    color: var(--almond);
+    font-family: var(--font-family-inconsolata);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    height: 173px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    width: 904px;
+}
+
+.skills {
+    align-items: center;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(31,30,27) 27.25%, rgb(27,26,23) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    padding: 64px 0px;
+    width: 1440px;
+}
+
+.line_skills {
+    align-items: flex-start;
+    display: flex;
+    gap: 16px;
+    width: fit-content;
+}
+
+.card_skill {
+    background-color: var(--log-cabin);
+    border-radius: 10px;
+    height: 300px;
+    min-width: 200px;
+}
+
+.porfolio-pc-screen {
+    align-items: flex-start;
+    background-color: #1b1a17;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 2405.91px;
+    min-width: 1440px;
+    width: 100%;
 }

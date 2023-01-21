@@ -1,0 +1,20 @@
+:root{
+    --black: rgba(0,0,0,1);
+    --eerie-black: rgba(31,30,27,1);
+    --log-cabin-2: rgba(33,32,29,0.98);
+    --log-cabin: rgba(33,32,29,1);
+    --mine-shaft: rgba(50,49,46,1);
+    --de-york: rgba(121,198,152,1);
+    --almond: rgba(240,227,202,1);
+    --white: rgba(255,255,255,1);
+
+    --font-size-xxs: 14px;
+    --font-size-xs: 16px;
+    --font-size-s: 20px;
+    --font-size-m: 24px;
+    --font-size-l: 32px;
+
+    --font-family-anton: "Anton";
+    --font-family-arimo: "Arimo";
+    --font-family-inconsolata: "Inconsolata"
+}
